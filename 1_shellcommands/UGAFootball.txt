@@ -1,0 +1,23 @@
+mkdir dawgs
+cd dawgs/
+touch nitro.txt cj.txt nate.txt kj.txt oscar.txt anthony.txt raylen.txt daylen.txt dominic.txt daniel.txt daniel.txt
+touch mike.txt james.txt josh.txt
+mkdir players coaches
+mv mike.txt james.txt josh.txt coaches/
+mv *.txt players/
+mv coaches/ coachesAndStaff
+ls -R
+cd players/
+pwd
+ls
+cd ../coachesAndStaff/
+ls
+cd ..
+mkdir rivals
+cd rivals/
+touch alabama.txt florida.txt tach.txt
+cd ..
+mkdir medals
+touch 2022.txt 2021.txt 1980.txt 1942.txt
+cd ..
+mkdir allFiles

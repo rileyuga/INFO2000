@@ -1,0 +1,11 @@
+mv disorganized_structure/ organized_structure
+cd organized_structure/
+mkdir entertainment recipes sports technology travel
+mv travel*.txt travel
+mv recipes*.txt recipes
+mv tech*.txt technology
+mv enter*.txt entertainment
+mv sports*.txt sports
+ls -R >> output.txt
+
+# Riley James, Zachary Jacobson, Amiri Jones
